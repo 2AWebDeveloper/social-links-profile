@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+:root {
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 20%);
+    --dark-grey: hsl(0, 0%, 12%);
+    --off-black: hsl(0, 0%, 8%);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 0.875rem;
+}
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    padding: 1.25rem;
+    background-color: var(--off-black);
+}
+.user {
+    width: 384px;
+    max-width: 100%;
+    background-color: var(--dark-grey);
+    padding: 2.5rem;
+    border-radius: 12px;
+}
+.user__avatar {
+    max-width: 90px;
+    max-height: 90px;
+    border-radius: 100%;
+    margin-bottom: 1.5rem;
+}
+.user__name {
+    color: var(--white);
+    font-size: 1.5rem;
+    font-weight: 600; 
+    margin-bottom: 0.625rem;
+}
+.user__location {
+    display: block;
+    font-weight: 700;
+    color: var(--green);
+    margin-bottom: 1.5rem;
+}
+.user__notic {
+    display: block;
+    color: var(--white);
+    opacity: 0.8;
+    margin-bottom: 1.625rem;
+}
+.user__social {
+    display: flex;
+    flex-direction: column;
+    gap: 0.875rem;
+    list-style: none;
+}
+.social__item {
+    background-color: var(--grey);
+    color: var(--white);
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.2s ease 50ms;
+}
+.social__link {
+    display: block;
+    color: inherit;
+    padding: 0.875rem;
+    text-decoration: none;
+}
+.social__item:hover {
+    transform: scale(1.04);
+    color: var(--dark-grey);
+    background-color: var(--green);
+}
+@media only screen and (max-width: 768px) {
+    .user {
+        padding: 24px;
+    }
+}
