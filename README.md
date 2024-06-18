@@ -1,6 +1,6 @@
-# Frontend Mentor - Product preview card component solution
+# Frontend Mentor - Social links profile solution
 
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects.    
+This is a solution to the [Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Frontend Mentor challenges help you improve your coding skills by building realistic projects.   
 
 ## Table of contents
 
@@ -15,12 +15,12 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Screenshot
 
-![product-preview-card-component](https://raw.githubusercontent.com/2AWebDeveloper/product-preview-card-component/main/assets/images/screenshot.png)
+![social-links-profile](https://raw.githubusercontent.com/2AWebDeveloper/social-links-profile/main/assets/images/screenshot.png)
 
 ### Links
 
-- Solution URL: [Solution URL](https://github.com/2AWebDeveloper/product-preview-card-component)
-- Live Site URL: [Live Site URL](https://2awebdeveloper.github.io/product-preview-card-component/)
+- Solution URL: [Solution URL](https://github.com/2AWebDeveloper/social-links-profile)
+- Live Site URL: [Live Site URL](https://2awebdeveloper.github.io/social-links-profile/)
 
 ## My process
 
@@ -29,7 +29,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Grid
 
 ## Author
 
